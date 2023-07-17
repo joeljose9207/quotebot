@@ -1,4 +1,5 @@
 import pyquotegen
+import telebot
 
 # Get a random quote
 quote = pyquotegen.get_quote()
