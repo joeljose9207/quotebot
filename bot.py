@@ -1,6 +1,10 @@
 import pyquotegen
 import telebot
 
+
+
+API_TOKEN = '6032893870:AAGhM3l6W-W8t9TsCyRMC2-mntJ1EUhEKHM'
+bot = telebot.TeleBot(API_TOKEN)
 # Get a random quote
 quote = pyquotegen.get_quote()
 
